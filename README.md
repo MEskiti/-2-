@@ -77,3 +77,17 @@ dig / host — виконання DNS-запитів для визначення
 ![Image alt](https://github.com/MEskiti/-2-/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-16%20160332.png)
 ![Image alt](https://github.com/MEskiti/-2-/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-16%20160407.png)
 ![Image alt]()
+
+4. Відповіді на контрольні запитанняЯк пов'язані між собою команди cat та tac?Команда cat виводить вміст файлу від початку до кінця (згори вниз), а команда tac є її зворотною аналогією — вона виводить вміст файлу у зворотному порядку рядків (знизу вгору).Що робить команда ss?Команда ss (Socket Statistics) призначена для виведення інформації про мережеві сокети (TCP, UDP, UNIX-сокети). Вона є швидкою та сучасною заміною застарілої netstat, оскільки напряму зчитує дані з ядра.В чому відмінність між командами ps --forest та pstree?Обидві команди відображають процеси у вигляді ієрархічного дерева, але ps --forest виводить процеси у вигляді текстової таблиці з додатковими параметрами ( PID, %CPU, %MEM), тоді як pstree будує компактне візуальне «дерево» виключно на основі зв'язків батьківських і дочірніх процесів.У яких каталогах зберігаються налаштування системи?Здебільшого у каталозі /etc та його підкаталогах (конфігураційні файли у форматі звичайного тексту).У яких каталогах можна знайти встановлені в системі програми, доступні для користувача?У каталогах /bin, /usr/bin та /usr/local/bin.У яких каталогах можна знайти встановлені системні програми і програми призначені для виконання суперкористувачем?У каталогах /sbin, /usr/sbin та /usr/local/sbin.Поясніть призначення команд ping, ifconfig, traceroute.ping — перевірка доступності вузла в мережі за допомогою ICMP ехо-запитів.   ifconfig — перегляд та налаштування мережевих інтерфейсів (IP, маска, статус).   traceroute — визначення маршруту (ланцюжка маршрутизаторів/шлюзів), через який проходять пакетні дані до цільового хоста.Як називаються мережеві інтерфейси в Linux?Традиційно мережеві інтерфейси позначалися як eth0, eth1 (для Ethernet) та lo (loopback). У сучасних дистрибутивах використовується прогнозоване іменування (Predictable Network Interface Names), наприклад: ens33, enp3s0, wlan0 тощо.Як за допомогою команди ifconfig вивести параметри тільки одного мережевого інтерфейсу (наприклад, eth1), а не всіх?Для цього потрібно вказати назву інтерфейсу одразу після команди: ifconfig eth1.
+
+5. Висновки за результатами роботи (Conclusions)
+(Написано англійською мовою для отримання додаткового бала)
+
+Conclusions:
+During this laboratory work, practical skills in using the Bash command-line shell to manage system service data and network configurations in Linux were successfully acquired.
+
+We explored the Filesystem Hierarchy Standard (FHS) and examined how pseudo-filesystems such as /proc and /sys provide direct, dynamic access to kernel parameters, hardware information, and active system processes without storing data on physical disks.
+
+We analyzed the mechanisms of virtual memory management, system log files located in /var/log (including dmesg and systemd journal logs), and their importance for system troubleshooting and security audits.
+
+Furthermore, we mastered essential networking tools and configuration commands—such as ifconfig, ip, ping, netstat, ss, and dig—gaining a solid understanding of IPv4/IPv6 addressing, DNS resolution, and routing principles.
