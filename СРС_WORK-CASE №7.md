@@ -18,7 +18,7 @@
 Порівняння планувальників Windows та Linux
 | Критерій порівняння | Windows Task Scheduler |Linux Cron / Systemd Timers|
 | :--- | :--- | :--- |
-|  |  |   |   
+| Інтерфейс | Графічний (GUI - Task Scheduler MMC) та CLI (schtasks). | Переважно командний рядок (CLI), текстові файли конфігурації.  |   
 |  |  |   |   
 |  |  |   |   
 |  |  |   |   
