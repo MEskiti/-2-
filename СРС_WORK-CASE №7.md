@@ -73,3 +73,29 @@ at / batch: Інструменти для одноразового викона�
 
 2.5. Додавання завдань до Cron (Конфігурація розкладу)
 ![Image alt](https://github.com/MEskiti/-2-/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-18%20132820.png)
+
+3. Встановіть альтернативний Cron’у планувальник задач (на Ваш вибір). Виконані у завданні 2 дії продемонструйте через нього.
+![Image alt](https://github.com/MEskiti/-2-/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-18%20145810.png)
+
+English Terminology Dictionary & Conclusions (Bonus Section)
+English Terminology Dictionary (Словник термінів)
+Task Scheduler — планувальник завдань (програмний модуль ОС для автоматизації запуску процесів).
+
+Cron Daemon (crond) — фонова служба в Unix/Linux, яка виконує завдання за розкладом.
+
+Crontab Table — таблиця конфігурації завдань для планувальника cron.
+
+Systemd Timers — сучасний механізм планування завдань у systemd на основі таймерів та сервісів.
+
+Recurring Task — завдання, що повторюється періодично за розкладом.
+
+Background Process — фоновий процес, що виконується без участі користувача в інтерактивному режимі.
+
+Log File — файл журналу, куди записуються події та результати виконання завдань.
+
+Automation — автоматизація процесів для мінімізації ручної праці.
+
+Conclusions
+Task scheduling is a critical component of operating system administration, enabling system reliability, resource optimization, and the automation of routine maintenance operations. While Windows provides a comprehensive GUI-based Task Scheduler suitable for desktop environments, Linux environments predominantly rely on lightweight, command-line-driven tools such as Cron and modern Systemd Timers.
+
+Through practical implementation, Cron proved to be highly efficient for traditional cron-expression-based timing, whereas Systemd Timers offer advanced capabilities like dependency management, persistence across reboots, and integrated logging via systemd journals. Utilizing these schedulers effectively ensures that system backups, cleanup procedures, and administrative scripts run reliably without human intervention.
