@@ -5,16 +5,20 @@
 Текстовий браузер (w3m)
 ![Image alt](https://github.com/MEskiti/-2-/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-26%20105915.png)
 
+Поштовий клієнт (neomutt)
+![Image alt](https://github.com/MEskiti/-2-/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-26%20110000.png)
 
+Музичний плеєр (cmus)
+![Image alt](https://github.com/MEskiti/-2-/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-26%20110257.png)
 
+Завантаження торентів (rtorrent)
+![Image alt](https://github.com/MEskiti/-2-/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-26%20110257.png)
 
+Календар та планувальник (calcurse)
+![Image alt]()
 
-
-
-
-
-
-
+Перегляд зображень (chafa)
+![Image alt](https://github.com/MEskiti/-2-/blob/main/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-11-26%20110352.png)
 
 
 
